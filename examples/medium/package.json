@@ -1,0 +1,18 @@
+{
+  "name": "eth-auth-demo-medium",
+  "version": "1.0.0",
+  "description": "A live demo to use MetaMask to authenticate users on a website, issuing JWT (JSON web tokens).",
+  "author": "Pelith",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-session-sequelize": "^5.2.2",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0",
+    "sequelize-cli": "^4.0.0"
+  }
+}

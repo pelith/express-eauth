@@ -1,0 +1,30 @@
+{
+  "name": "eth-auth",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Pelith",
+  "keywords": [
+    "ethauth",
+    "eth-auth",
+    "metamask",
+    "ethereum",
+    "authentication"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eth-sig-util": "^1.4.2",
+    "ethereumjs-util": "^5.1.4",
+    "node-cache": "^4.1.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pelieth/node-eth-auth.git"
+  }
+}
