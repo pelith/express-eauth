@@ -1,4 +1,4 @@
-ETH Authenticator package for Node
+# ETH Authenticator package for Node
 
 ## Setup
 
