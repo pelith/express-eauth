@@ -72,3 +72,7 @@ app.get('/auth/:Message/:Signature', ethAuthMiddleware, (req, res) => {
 npm install
 npm test
 ```
+
+# Contact
+
+For help on how to intergrate this package into your websites or apps, feel free to contact us at you -at- pelith -dot- com.
