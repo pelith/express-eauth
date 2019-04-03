@@ -9,7 +9,7 @@ Refer this repository for an example setup, including a working demo server: htt
 ## Setup
 
 ```bash
-npm install express-Eauth
+npm install express-eauth
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Insert it as a middleware to authenticating routes in your Express app. After th
 
 ```js
 const express = require('express');
-const Eauth = require('express-Eauth');
+const Eauth = require('express-eauth');
 
 let eauthMiddleware = new Eauth({
   // all options and their default values

@@ -1,5 +1,5 @@
 /*!
- * express-Eauth
+ * express-eauth
  * Copyright(c) 2018 Pelith
  * MIT Licensed
  */

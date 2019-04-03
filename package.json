@@ -1,5 +1,5 @@
 {
-  "name": "express-Eauth",
+  "name": "express-eauth",
   "version": "1.2.1",
   "description": "",
   "author": "Pelith",
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelith/express-Eauth.git"
+    "url": "https://github.com/pelith/express-eauth.git"
   }
 }
