@@ -4,7 +4,7 @@ This package works as a middleware for an Express app.
 
 ## Exmaple
 
-Refer this repository for an example setup, including a working demo server: https://github.com/pelith/node-Eauth-server.
+Refer this repository for an example setup, including a working demo server: https://github.com/pelith/node-eauth-server.
 
 ## Setup
 
