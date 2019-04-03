@@ -4,7 +4,7 @@ This package works as a middleware for an Express app.
 
 ## Exmaple
 
-Refer this repository for an example setup, including a working demo server: https://github.com/pelieth/node-eth-auth-server.
+Refer this repository for an example setup, including a working demo server: https://github.com/pelith/node-Eauth-server.
 
 ## Setup
 
@@ -14,35 +14,35 @@ npm install express-Eauth
 
 ## Usage
 
-Insert it as a middleware to authenticating routes in your Express app. After this middleware, the context object is stored as `req.ethAuth`, which has attributes listed inside callback functions.
+Insert it as a middleware to authenticating routes in your Express app. After this middleware, the context object is stored as `req.eauth`, which has attributes listed inside callback functions.
 
 ```js
 const express = require('express');
-const EthAuth = require('node-eth-auth');
+const Eauth = require('express-Eauth');
 
-let ethAuthMiddleware = new EthAuth({
+let eauthMiddleware = new Eauth({
   // all options and their default values
   signature: 'Signature',
   message: 'Message',
   address: 'Address',
-  banner: 'eth-auth',
+  banner: 'Eauth',
 });
 
 const app = express();
 
 /* --- Step 1: authentication request --- */
-app.get('/auth/:Address', ethAuthMiddleware, (req, res) => { 
+app.get('/auth/:Address', eauthMiddleware, (req, res) => { 
   //           ^^^^^^^^ the URL parameter
 
-  /* req.ethAuth
+  /* req.eauth
    *   message: The challenge string.
    */
 });
 
 /* --- Step 2: challenge response --- */
-app.get('/auth/:Message/:Signature', ethAuthMiddleware, (req, res) => { 
+app.get('/auth/:Message/:Signature', eauthMiddleware, (req, res) => { 
   /*
-   * req.ethAuth
+   * req.eauth
    *   recoveredAddress: The recovered wallet address for the signature.
    */
 });
@@ -63,7 +63,7 @@ app.get('/auth/:Message/:Signature', ethAuthMiddleware, (req, res) => {
 * `address='Address'` \
   These options specify the corresponding URL parameter (in URL, not in query string!) for a request.
 
-* `banner='eth-auth'`:`String` \
+* `banner='Eauth'`:`String` \
   An identifier for your app that is sent to the user when an authentication request is made. The user signs the challenge string along with the banner to prevent spoofings. **It is strongly discouraged to use the default value.**
 
 ## Testing
