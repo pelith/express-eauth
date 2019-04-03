@@ -1,4 +1,4 @@
-# ETH Authenticator package for Node
+# ETH Authenticator package for Node Express
 
 This package works as a middleware for an Express app.
 
@@ -9,7 +9,7 @@ Refer this repository for an example setup, including a working demo server: htt
 ## Setup
 
 ```bash
-npm install node-eth-auth
+npm install express-Eauth
 ```
 
 ## Usage

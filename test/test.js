@@ -1,7 +1,7 @@
 const assert = require('assert');
-const EthAuth = require('../');
+const Eauth = require('../');
 
-const ethAuth = new EthAuth({"banner": "Pelieth"});
+const eauth = new Eauth({"banner": "Pelith"});
 
 class REQ {
     constructor() {
@@ -17,10 +17,10 @@ test('createMessage', function() {
 
     let res = {}
     let next = () => {}
-    ethAuth(req,res,next)
+    eauth(req,res,next)
 
     const regex = /\b[A-Fa-f0-9]{64}\b/
-    // assert.equal(regex.test(req.ethAuth.message[1].value), true);
+    // assert.equal(regex.test(req.eauth.message[1].value), true);
 });
 
 test('confirmMessage', function() {
@@ -32,5 +32,5 @@ test('confirmMessage', function() {
 
     let res = {}
     let next = () => {}
-    ethAuth(req,res,next)
+    eauth(req,res,next)
 });

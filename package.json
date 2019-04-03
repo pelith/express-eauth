@@ -1,10 +1,10 @@
 {
-  "name": "node-eth-auth",
+  "name": "express-Eauth",
   "version": "1.2.1",
   "description": "",
   "author": "Pelith",
   "keywords": [
-    "ethauth",
+    "Eauth",
     "eth-auth",
     "metamask",
     "ethereum",
@@ -25,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelieth/node-eth-auth.git"
+    "url": "https://github.com/pelith/express-Eauth.git"
   }
 }
